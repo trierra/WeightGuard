@@ -1,0 +1,422 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		209A88461C50833D000505CF /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 209A88451C50833D000505CF /* AppDelegate.swift */; };
+		209A88481C50833D000505CF /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 209A88471C50833D000505CF /* ViewController.swift */; };
+		209A884B1C50833D000505CF /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 209A88491C50833D000505CF /* Main.storyboard */; };
+		209A884E1C50833D000505CF /* WeightGuard.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 209A884C1C50833D000505CF /* WeightGuard.xcdatamodeld */; };
+		209A88501C50833D000505CF /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 209A884F1C50833D000505CF /* Assets.xcassets */; };
+		209A88531C50833D000505CF /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 209A88511C50833D000505CF /* LaunchScreen.storyboard */; };
+		209A885E1C50833D000505CF /* WeightGuardTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 209A885D1C50833D000505CF /* WeightGuardTests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		209A885A1C50833D000505CF /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 209A883A1C50833D000505CF /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 209A88411C50833D000505CF;
+			remoteInfo = WeightGuard;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		209A88421C50833D000505CF /* WeightGuard.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = WeightGuard.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		209A88451C50833D000505CF /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		209A88471C50833D000505CF /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		209A884A1C50833D000505CF /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		209A884D1C50833D000505CF /* WeightGuard.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = WeightGuard.xcdatamodel; sourceTree = "<group>"; };
+		209A884F1C50833D000505CF /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		209A88521C50833D000505CF /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		209A88541C50833D000505CF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		209A88591C50833D000505CF /* WeightGuardTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = WeightGuardTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		209A885D1C50833D000505CF /* WeightGuardTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WeightGuardTests.swift; sourceTree = "<group>"; };
+		209A885F1C50833D000505CF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		209A883F1C50833D000505CF /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		209A88561C50833D000505CF /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		209A88391C50833D000505CF = {
+			isa = PBXGroup;
+			children = (
+				209A88441C50833D000505CF /* WeightGuard */,
+				209A885C1C50833D000505CF /* WeightGuardTests */,
+				209A88431C50833D000505CF /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		209A88431C50833D000505CF /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				209A88421C50833D000505CF /* WeightGuard.app */,
+				209A88591C50833D000505CF /* WeightGuardTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		209A88441C50833D000505CF /* WeightGuard */ = {
+			isa = PBXGroup;
+			children = (
+				209A88451C50833D000505CF /* AppDelegate.swift */,
+				209A88471C50833D000505CF /* ViewController.swift */,
+				209A88491C50833D000505CF /* Main.storyboard */,
+				209A884F1C50833D000505CF /* Assets.xcassets */,
+				209A88511C50833D000505CF /* LaunchScreen.storyboard */,
+				209A88541C50833D000505CF /* Info.plist */,
+				209A884C1C50833D000505CF /* WeightGuard.xcdatamodeld */,
+			);
+			path = WeightGuard;
+			sourceTree = "<group>";
+		};
+		209A885C1C50833D000505CF /* WeightGuardTests */ = {
+			isa = PBXGroup;
+			children = (
+				209A885D1C50833D000505CF /* WeightGuardTests.swift */,
+				209A885F1C50833D000505CF /* Info.plist */,
+			);
+			path = WeightGuardTests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		209A88411C50833D000505CF /* WeightGuard */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 209A88621C50833D000505CF /* Build configuration list for PBXNativeTarget "WeightGuard" */;
+			buildPhases = (
+				209A883E1C50833D000505CF /* Sources */,
+				209A883F1C50833D000505CF /* Frameworks */,
+				209A88401C50833D000505CF /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = WeightGuard;
+			productName = WeightGuard;
+			productReference = 209A88421C50833D000505CF /* WeightGuard.app */;
+			productType = "com.apple.product-type.application";
+		};
+		209A88581C50833D000505CF /* WeightGuardTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 209A88651C50833D000505CF /* Build configuration list for PBXNativeTarget "WeightGuardTests" */;
+			buildPhases = (
+				209A88551C50833D000505CF /* Sources */,
+				209A88561C50833D000505CF /* Frameworks */,
+				209A88571C50833D000505CF /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				209A885B1C50833D000505CF /* PBXTargetDependency */,
+			);
+			name = WeightGuardTests;
+			productName = WeightGuardTests;
+			productReference = 209A88591C50833D000505CF /* WeightGuardTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		209A883A1C50833D000505CF /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0720;
+				LastUpgradeCheck = 0720;
+				ORGANIZATIONNAME = "Oksana Chuiko";
+				TargetAttributes = {
+					209A88411C50833D000505CF = {
+						CreatedOnToolsVersion = 7.2;
+						DevelopmentTeam = ESH3ZLBH4Y;
+					};
+					209A88581C50833D000505CF = {
+						CreatedOnToolsVersion = 7.2;
+						DevelopmentTeam = ESH3ZLBH4Y;
+						TestTargetID = 209A88411C50833D000505CF;
+					};
+				};
+			};
+			buildConfigurationList = 209A883D1C50833D000505CF /* Build configuration list for PBXProject "WeightGuard" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 209A88391C50833D000505CF;
+			productRefGroup = 209A88431C50833D000505CF /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				209A88411C50833D000505CF /* WeightGuard */,
+				209A88581C50833D000505CF /* WeightGuardTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		209A88401C50833D000505CF /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				209A88531C50833D000505CF /* LaunchScreen.storyboard in Resources */,
+				209A88501C50833D000505CF /* Assets.xcassets in Resources */,
+				209A884B1C50833D000505CF /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		209A88571C50833D000505CF /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		209A883E1C50833D000505CF /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				209A88481C50833D000505CF /* ViewController.swift in Sources */,
+				209A88461C50833D000505CF /* AppDelegate.swift in Sources */,
+				209A884E1C50833D000505CF /* WeightGuard.xcdatamodeld in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		209A88551C50833D000505CF /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				209A885E1C50833D000505CF /* WeightGuardTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		209A885B1C50833D000505CF /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 209A88411C50833D000505CF /* WeightGuard */;
+			targetProxy = 209A885A1C50833D000505CF /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		209A88491C50833D000505CF /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				209A884A1C50833D000505CF /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		209A88511C50833D000505CF /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				209A88521C50833D000505CF /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		209A88601C50833D000505CF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		209A88611C50833D000505CF /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		209A88631C50833D000505CF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = WeightGuard/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = me.trierra.WeightGuard;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		209A88641C50833D000505CF /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = WeightGuard/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = me.trierra.WeightGuard;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		209A88661C50833D000505CF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = WeightGuardTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = me.trierra.WeightGuardTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/WeightGuard.app/WeightGuard";
+			};
+			name = Debug;
+		};
+		209A88671C50833D000505CF /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = WeightGuardTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = me.trierra.WeightGuardTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/WeightGuard.app/WeightGuard";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		209A883D1C50833D000505CF /* Build configuration list for PBXProject "WeightGuard" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				209A88601C50833D000505CF /* Debug */,
+				209A88611C50833D000505CF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		209A88621C50833D000505CF /* Build configuration list for PBXNativeTarget "WeightGuard" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				209A88631C50833D000505CF /* Debug */,
+				209A88641C50833D000505CF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		209A88651C50833D000505CF /* Build configuration list for PBXNativeTarget "WeightGuardTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				209A88661C50833D000505CF /* Debug */,
+				209A88671C50833D000505CF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		209A884C1C50833D000505CF /* WeightGuard.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				209A884D1C50833D000505CF /* WeightGuard.xcdatamodel */,
+			);
+			currentVersion = 209A884D1C50833D000505CF /* WeightGuard.xcdatamodel */;
+			path = WeightGuard.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = 209A883A1C50833D000505CF /* Project object */;
+}
