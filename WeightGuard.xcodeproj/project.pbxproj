@@ -7,6 +7,11 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		208CF5E51C58878200BF852C /* SportTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 208CF5E41C58878200BF852C /* SportTableViewCell.swift */; };
+		208CF5E71C58878E00BF852C /* FoodTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 208CF5E61C58878E00BF852C /* FoodTableViewCell.swift */; };
+		208CF5E91C58879A00BF852C /* DrinkTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 208CF5E81C58879A00BF852C /* DrinkTableViewCell.swift */; };
+		208CF5EB1C5B4E9300BF852C /* NavViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 208CF5EA1C5B4E9300BF852C /* NavViewController.swift */; };
+		208CF5ED1C5B5BEA00BF852C /* TabBarViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 208CF5EC1C5B5BEA00BF852C /* TabBarViewController.swift */; };
 		209A88461C50833D000505CF /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 209A88451C50833D000505CF /* AppDelegate.swift */; };
 		209A88481C50833D000505CF /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 209A88471C50833D000505CF /* ViewController.swift */; };
 		209A884B1C50833D000505CF /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 209A88491C50833D000505CF /* Main.storyboard */; };
@@ -14,6 +19,7 @@
 		209A88501C50833D000505CF /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 209A884F1C50833D000505CF /* Assets.xcassets */; };
 		209A88531C50833D000505CF /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 209A88511C50833D000505CF /* LaunchScreen.storyboard */; };
 		209A885E1C50833D000505CF /* WeightGuardTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 209A885D1C50833D000505CF /* WeightGuardTests.swift */; };
+		209A88691C51AC0A000505CF /* DashboardTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 209A88681C51AC0A000505CF /* DashboardTableViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -27,6 +33,11 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		208CF5E41C58878200BF852C /* SportTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SportTableViewCell.swift; sourceTree = "<group>"; };
+		208CF5E61C58878E00BF852C /* FoodTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FoodTableViewCell.swift; sourceTree = "<group>"; };
+		208CF5E81C58879A00BF852C /* DrinkTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DrinkTableViewCell.swift; sourceTree = "<group>"; };
+		208CF5EA1C5B4E9300BF852C /* NavViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NavViewController.swift; sourceTree = "<group>"; };
+		208CF5EC1C5B5BEA00BF852C /* TabBarViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TabBarViewController.swift; sourceTree = "<group>"; };
 		209A88421C50833D000505CF /* WeightGuard.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = WeightGuard.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		209A88451C50833D000505CF /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		209A88471C50833D000505CF /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -38,6 +49,7 @@
 		209A88591C50833D000505CF /* WeightGuardTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = WeightGuardTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		209A885D1C50833D000505CF /* WeightGuardTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WeightGuardTests.swift; sourceTree = "<group>"; };
 		209A885F1C50833D000505CF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		209A88681C51AC0A000505CF /* DashboardTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DashboardTableViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,6 +70,24 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		208CF5EE1C5C122800BF852C /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				209A88471C50833D000505CF /* ViewController.swift */,
+				208CF5EC1C5B5BEA00BF852C /* TabBarViewController.swift */,
+				208CF5EA1C5B4E9300BF852C /* NavViewController.swift */,
+				209A88681C51AC0A000505CF /* DashboardTableViewController.swift */,
+			);
+			name = Controllers;
+			sourceTree = "<group>";
+		};
+		208CF5EF1C5C123300BF852C /* DashboardCells */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = DashboardCells;
+			sourceTree = "<group>";
+		};
 		209A88391C50833D000505CF = {
 			isa = PBXGroup;
 			children = (
@@ -80,8 +110,12 @@
 			isa = PBXGroup;
 			children = (
 				209A88451C50833D000505CF /* AppDelegate.swift */,
-				209A88471C50833D000505CF /* ViewController.swift */,
+				208CF5EE1C5C122800BF852C /* Controllers */,
 				209A88491C50833D000505CF /* Main.storyboard */,
+				208CF5E41C58878200BF852C /* SportTableViewCell.swift */,
+				208CF5E61C58878E00BF852C /* FoodTableViewCell.swift */,
+				208CF5EF1C5C123300BF852C /* DashboardCells */,
+				208CF5E81C58879A00BF852C /* DrinkTableViewCell.swift */,
 				209A884F1C50833D000505CF /* Assets.xcassets */,
 				209A88511C50833D000505CF /* LaunchScreen.storyboard */,
 				209A88541C50833D000505CF /* Info.plist */,
@@ -202,9 +236,15 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				208CF5E91C58879A00BF852C /* DrinkTableViewCell.swift in Sources */,
+				209A88691C51AC0A000505CF /* DashboardTableViewController.swift in Sources */,
 				209A88481C50833D000505CF /* ViewController.swift in Sources */,
 				209A88461C50833D000505CF /* AppDelegate.swift in Sources */,
+				208CF5ED1C5B5BEA00BF852C /* TabBarViewController.swift in Sources */,
 				209A884E1C50833D000505CF /* WeightGuard.xcdatamodeld in Sources */,
+				208CF5E51C58878200BF852C /* SportTableViewCell.swift in Sources */,
+				208CF5EB1C5B4E9300BF852C /* NavViewController.swift in Sources */,
+				208CF5E71C58878E00BF852C /* FoodTableViewCell.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -394,6 +434,7 @@
 				209A88641C50833D000505CF /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		209A88651C50833D000505CF /* Build configuration list for PBXNativeTarget "WeightGuardTests" */ = {
 			isa = XCConfigurationList;
@@ -402,6 +443,7 @@
 				209A88671C50833D000505CF /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 
