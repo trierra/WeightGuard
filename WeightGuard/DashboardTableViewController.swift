@@ -64,6 +64,7 @@ class DashboardTableViewController: UITableViewController  {
 
     override func tableView(tableView: UITableView, willDisplayHeaderView view: UIView, forSection section: Int) {
         let header: UITableViewHeaderFooterView = view as! UITableViewHeaderFooterView //recast your view as a UITableViewHeaderFooterView
+
         header.contentView.backgroundColor = UIColor(red: 194/255, green: 189/255, blue: 168/255, alpha: 1)
         header.textLabel!.textColor = UIColor(red: 156/255, green: 152/255, blue: 144/255, alpha: 1)
         header.textLabel!.textAlignment = NSTextAlignment.Center
