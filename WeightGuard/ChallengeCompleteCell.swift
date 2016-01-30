@@ -10,6 +10,7 @@ import UIKit
 
 class ChallengeCompleteCell: UITableViewCell {
     let cellMessage = UILabel()
+    var label : UILabel = UILabel()
     var textField : UITextField = UITextField()
 
 
@@ -17,11 +18,12 @@ class ChallengeCompleteCell: UITableViewCell {
     override init(style: UITableViewCellStyle, reuseIdentifier: String?) {
         super.init(style: style, reuseIdentifier: "ChallengeCompleteCell")
 
-        //Initialize Text Field
-        self.textField = UITextField(frame: CGRect(x: 119.00, y: 9, width: 216.00, height: 31.00));
+        self.label = UILabel(frame: CGRectMake(35, 30, 310, 80))
+        label.lineBreakMode = NSLineBreakMode.ByWordWrapping
+        label.numberOfLines = 3
 
-        //Add TextField to SubView
-        self.addSubview(self.textField)
+        label.textAlignment = NSTextAlignment.Center
+        self.addSubview(label)
     }
 
     required init?(coder aDecoder: NSCoder) {

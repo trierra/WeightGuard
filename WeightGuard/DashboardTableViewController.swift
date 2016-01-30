@@ -13,19 +13,15 @@ class DashboardTableViewController: UITableViewController  {
     let foodCellIdentifiyer = "FoodCell"
     let drinkCellIdentifiyer = "DrinkCell"
 
-    let swiftBlogs = ["Ray Wenderlich", "NSHipster", "iOS Developer Tips", "Jameson Quave", "Natasha The Robot", "Coding Explorer", "That Thing In Swift", "Andrew Bancroft", "iAchieved.it", "Airspeed Velocity"]
-
     override func viewDidLoad() {
         super.viewDidLoad()
         tableView.delegate = self
         tableView.dataSource = self
-    }
-
-    override func viewWillAppear(animated: Bool) {
-        super.viewWillAppear(animated)
-        tableView.registerClass(ChallengeCompleteCell.self, forCellReuseIdentifier: "ChallengeCompleteCell")
+        tableView.layoutMargins = UIEdgeInsetsZero
+        tableView.separatorInset = UIEdgeInsetsZero
 
     }
+
 
     override func didReceiveMemoryWarning() {
         super.didReceiveMemoryWarning()
@@ -45,8 +41,12 @@ class DashboardTableViewController: UITableViewController  {
     override func tableView(tableView: UITableView, cellForRowAtIndexPath indexPath: NSIndexPath) -> UITableViewCell {
 
         if indexPath.section == 0 {
+
             let cell = tableView.dequeueReusableCellWithIdentifier("ChallengeCompleteCell", forIndexPath: indexPath) as! ChallengeCompleteCell
-            cell.textField.text = "message"
+            cell.backgroundColor =  UIColor(red: 249/255, green: 244/255, blue: 232/255, alpha: 1)
+            cell.label.text = "You have completed challengde for today! Keep it up!"
+            cell.layoutMargins = UIEdgeInsetsZero
+
 
 //            let cell : UITableViewCell = UITableViewCell(style: UITableViewCellStyle.Default
 //                , reuseIdentifier: sportCellIdentifiyer)
@@ -59,71 +59,31 @@ class DashboardTableViewController: UITableViewController  {
                 , reuseIdentifier: foodCellIdentifiyer)
             cell.backgroundColor =  UIColor(red: 249/255, green: 244/255, blue: 232/255, alpha: 1)
 
+
+            cell.layoutMargins = UIEdgeInsetsZero
+
             return cell
 
-        } else{
+        } else {
             let cell : UITableViewCell = UITableViewCell(style: UITableViewCellStyle.Default
                 , reuseIdentifier: drinkCellIdentifiyer)
             cell.backgroundColor =  UIColor(red: 249/255, green: 244/255, blue: 232/255, alpha: 1)
+
+            cell.layoutMargins = UIEdgeInsetsZero
 
             return cell
         }
     }
 
-    override func tableView(tableView: UITableView, willDisplayHeaderView view: UIView, forSection section: Int) {
-        let header: UITableViewHeaderFooterView = view as! UITableViewHeaderFooterView //recast your view as a UITableViewHeaderFooterView
-
-        header.contentView.backgroundColor = UIColor(red: 194/255, green: 189/255, blue: 168/255, alpha: 1)
-        header.textLabel!.textColor = UIColor(red: 156/255, green: 152/255, blue: 144/255, alpha: 1)
-        header.textLabel!.textAlignment = NSTextAlignment.Center
-//        header.alpha = 0.5 //make the header transparent
+    //MARK: TableView cells
+    
+    override func viewWillAppear(animated: Bool) {
+        super.viewWillAppear(animated)
+        tableView.registerClass(ChallengeCompleteCell.self, forCellReuseIdentifier: "ChallengeCompleteCell")
     }
 
-
-
-    /*
-    // Override to support conditional editing of the table view.
-    override func tableView(tableView: UITableView, canEditRowAtIndexPath indexPath: NSIndexPath) -> Bool {
-        // Return false if you do not want the specified item to be editable.
-        return true
+    override func tableView(tableView: UITableView, willDisplayCell cell: UITableViewCell, forRowAtIndexPath indexPath: NSIndexPath) {
+        tableView.separatorInset = UIEdgeInsetsZero
     }
-    */
-
-    /*
-    // Override to support editing the table view.
-    override func tableView(tableView: UITableView, commitEditingStyle editingStyle: UITableViewCellEditingStyle, forRowAtIndexPath indexPath: NSIndexPath) {
-        if editingStyle == .Delete {
-            // Delete the row from the data source
-            tableView.deleteRowsAtIndexPaths([indexPath], withRowAnimation: .Fade)
-        } else if editingStyle == .Insert {
-            // Create a new instance of the appropriate class, insert it into the array, and add a new row to the table view
-        }    
-    }
-    */
-
-    /*
-    // Override to support rearranging the table view.
-    override func tableView(tableView: UITableView, moveRowAtIndexPath fromIndexPath: NSIndexPath, toIndexPath: NSIndexPath) {
-
-    }
-    */
-
-    /*
-    // Override to support conditional rearranging of the table view.
-    override func tableView(tableView: UITableView, canMoveRowAtIndexPath indexPath: NSIndexPath) -> Bool {
-        // Return false if you do not want the item to be re-orderable.
-        return true
-    }
-    */
-
-    /*
-    // MARK: - Navigation
-
-    // In a storyboard-based application, you will often want to do a little preparation before navigation
-    override func prepareForSegue(segue: UIStoryboardSegue, sender: AnyObject?) {
-        // Get the new view controller using segue.destinationViewController.
-        // Pass the selected object to the new view controller.
-    }
-    */
 
 }
