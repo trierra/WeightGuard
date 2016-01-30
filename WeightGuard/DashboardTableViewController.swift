@@ -21,6 +21,12 @@ class DashboardTableViewController: UITableViewController  {
         tableView.dataSource = self
     }
 
+    override func viewWillAppear(animated: Bool) {
+        super.viewWillAppear(animated)
+        tableView.registerClass(ChallengeCompleteCell.self, forCellReuseIdentifier: "ChallengeCompleteCell")
+
+    }
+
     override func didReceiveMemoryWarning() {
         super.didReceiveMemoryWarning()
         // Dispose of any resources that can be recreated.
@@ -39,10 +45,12 @@ class DashboardTableViewController: UITableViewController  {
     override func tableView(tableView: UITableView, cellForRowAtIndexPath indexPath: NSIndexPath) -> UITableViewCell {
 
         if indexPath.section == 0 {
-            let cell : UITableViewCell = UITableViewCell(style: UITableViewCellStyle.Default
-                , reuseIdentifier: sportCellIdentifiyer)
-//            cell.backgroundColor = UIColor( red: 0xF9, green: 0xF4, blue: 0xE8, alpha: 0)
-            cell.backgroundColor =  UIColor(red: 249/255, green: 244/255, blue: 232/255, alpha: 1)
+            let cell = tableView.dequeueReusableCellWithIdentifier("ChallengeCompleteCell", forIndexPath: indexPath) as! ChallengeCompleteCell
+            cell.textField.text = "message"
+
+//            let cell : UITableViewCell = UITableViewCell(style: UITableViewCellStyle.Default
+//                , reuseIdentifier: sportCellIdentifiyer)
+//            cell.backgroundColor =  UIColor(red: 249/255, green: 244/255, blue: 232/255, alpha: 1)
 
         return cell
 
