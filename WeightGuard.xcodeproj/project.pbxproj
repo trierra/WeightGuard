@@ -79,7 +79,6 @@
 				208CF5EC1C5B5BEA00BF852C /* TabBarViewController.swift */,
 				208CF5EA1C5B4E9300BF852C /* NavViewController.swift */,
 				209A88681C51AC0A000505CF /* DashboardTableViewController.swift */,
-				208CF5F01C5C462900BF852C /* ChallengeCompleteCell.swift */,
 			);
 			name = Controllers;
 			sourceTree = "<group>";
@@ -87,6 +86,7 @@
 		208CF5EF1C5C123300BF852C /* DashboardCells */ = {
 			isa = PBXGroup;
 			children = (
+				208CF5F01C5C462900BF852C /* ChallengeCompleteCell.swift */,
 				208CF5E41C58878200BF852C /* SportTableViewCell.swift */,
 				208CF5E61C58878E00BF852C /* FoodTableViewCell.swift */,
 				208CF5E81C58879A00BF852C /* DrinkTableViewCell.swift */,

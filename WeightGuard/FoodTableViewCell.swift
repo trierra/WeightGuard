@@ -10,6 +10,17 @@ import UIKit
 
 class FoodTableViewCell: UITableViewCell {
 
+
+    @IBOutlet weak var titleLabel: UILabel!
+
+    override init(style: UITableViewCellStyle, reuseIdentifier: String?) {
+        super.init(style: style, reuseIdentifier: "FoodCell")
+    }
+
+    required init?(coder aDecoder: NSCoder) {
+        super.init(coder: aDecoder)
+    }
+    
     override func awakeFromNib() {
         super.awakeFromNib()
         // Initialization code

@@ -9,11 +9,7 @@
 import UIKit
 
 class ChallengeCompleteCell: UITableViewCell {
-    let cellMessage = UILabel()
     var label : UILabel = UILabel()
-    var textField : UITextField = UITextField()
-
-
 
     override init(style: UITableViewCellStyle, reuseIdentifier: String?) {
         super.init(style: style, reuseIdentifier: "ChallengeCompleteCell")

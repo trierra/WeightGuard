@@ -10,6 +10,17 @@ import UIKit
 
 class DrinkTableViewCell: UITableViewCell {
 
+
+    @IBOutlet weak var titleLabel: UILabel!
+
+    override init(style: UITableViewCellStyle, reuseIdentifier: String?) {
+        super.init(style: UITableViewCellStyle.Subtitle, reuseIdentifier: reuseIdentifier)
+    }
+
+    required init?(coder aDecoder: NSCoder) {
+        super.init(coder: aDecoder)
+    }
+    
     override func awakeFromNib() {
         super.awakeFromNib()
         // Initialization code
